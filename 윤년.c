@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main() {
+int main(void) {
 	int year;
 	printf("연도를 입력하시오: ");
 	scanf("%d", &year);
