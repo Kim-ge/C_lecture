@@ -9,7 +9,7 @@ int main(void) {
 	printf("0,1,2 중 하나 입력 : ");
 	scanf("%d", &user);
 
-	if ((user + 1) == computer) {
+	if ((user + 1) == computer) { //0,1,2로 제한두지 않으려면 %3 써주기
 		printf("컴퓨터 승리\n");
 	}
 	else if (user == computer) {
