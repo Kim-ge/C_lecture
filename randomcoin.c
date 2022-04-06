@@ -5,7 +5,7 @@ int main(void) {
 
 	printf("동전 던지기 게임을 시작합니다.\n");
 	srand(time(NULL));
-	int coin = rand();
+	int coin = rand(); //rand()%2로 해도 됨
 
 	if (coin % 2 == 0) {
 		printf("앞면입니다.\n");
