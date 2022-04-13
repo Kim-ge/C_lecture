@@ -1,8 +1,10 @@
 #include<stdio.h>
-#include<windows.h>
+#include<stdlib.h>
 
 int main(void) {
-	int answer = 33;
+	srand(time(NULL));
+	int answer;
+	answer=rand();
 	int guess;
 	int tries = 0;
 
