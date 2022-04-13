@@ -12,4 +12,6 @@ int main(void) {
 		x += 70;
 		i++;
 	}
+	
+	return 0;
 }
