@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 #include <windows.h>
 #define SIZE 10
 
@@ -16,9 +16,12 @@ int main(void) {
 				list[i + 1] = tmp;
 			}
 		}
+
+		for (i = 0; i < SIZE; i++) {
+			Rectangle(hdc, 200 + i * 50, 200 - list[i], 250 + i * 50, 200);
+		}
+		Sleep(1000);
 	}
-	for (i = 0; i < SIZE; i++) {
-		Rectangle(hdc, 200 + i * 50, 200 - list[i], 250 + i * 50, 200);
-	}
-	Sleep(1000);
+
+	return 0;
 }
